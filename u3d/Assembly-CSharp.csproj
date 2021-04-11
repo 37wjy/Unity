@@ -48,59 +48,60 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\XLua\Src\ObjectTranslatorPool.cs" />
-     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
      <Compile Include="Assets\XLua\Src\LuaTable.cs" />
      <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
-     <Compile Include="Assets\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest.cs" />
      <Compile Include="Assets\XLua\Src\LuaDLL.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
+     <Compile Include="Assets\Scripts\10022\Move.cs" />
+     <Compile Include="Assets\Scripts\10022\focus_camera.cs" />
+     <Compile Include="Assets\XLua\Src\Utils.cs" />
+     <Compile Include="Assets\XLua\Examples\09_GenericMethod\Foo.cs" />
+     <Compile Include="Assets\XLua\Src\RawObject.cs" />
+     <Compile Include="Assets\XLua\Examples\11_RawObject\RawObjectTest.cs" />
+     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
+     <Compile Include="Assets\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
+     <Compile Include="Assets\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
+     <Compile Include="Assets\Scripts\10022\move_around.cs" />
+     <Compile Include="Assets\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
+     <Compile Include="Assets\XLua\Src\MethodWarpsCache.cs" />
+     <Compile Include="Assets\XLua\Examples\08_Hotfix\StatefullTest.cs" />
+     <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
+     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\10022\doshake.cs" />
+     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
+     <Compile Include="Assets\XLua\Src\LuaBase.cs" />
+     <Compile Include="Assets\Scripts\10022\UIFoller.cs" />
+     <Compile Include="Assets\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
+     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
+     <Compile Include="Assets\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\XLua\Src\GenAttributes.cs" />
      <Compile Include="Assets\XLua\Src\LuaFunction.cs" />
      <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
      <Compile Include="Assets\XLua\Examples\05_NoGc\NoGc.cs" />
-     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
      <Compile Include="Assets\XLua\Src\ObjectCasters.cs" />
      <Compile Include="Assets\Scripts\10022\nee.cs" />
      <Compile Include="Assets\XLua\Src\SignatureLoader.cs" />
-     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
-     <Compile Include="Assets\Scripts\10022\Move.cs" />
-     <Compile Include="Assets\Scripts\focus_camera.cs" />
-     <Compile Include="Assets\XLua\Src\Utils.cs" />
      <Compile Include="Assets\XLua\Src\TypeExtensions.cs" />
-     <Compile Include="Assets\Scripts\ParamsInterface.cs" />
-     <Compile Include="Assets\XLua\Examples\09_GenericMethod\Foo.cs" />
-     <Compile Include="Assets\XLua\Src\RawObject.cs" />
+     <Compile Include="Assets\Scripts\10022\ParamsInterface.cs" />
      <Compile Include="Assets\Scripts\10022\params interface.cs" />
-     <Compile Include="Assets\XLua\Examples\11_RawObject\RawObjectTest.cs" />
      <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
-     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
+     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
-     <Compile Include="Assets\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
-     <Compile Include="Assets\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
-     <Compile Include="Assets\Scripts\move_around.cs" />
-     <Compile Include="Assets\Scripts\ImageAlphaRaycast.cs" />
-     <Compile Include="Assets\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
-     <Compile Include="Assets\XLua\Src\MethodWarpsCache.cs" />
-     <Compile Include="Assets\XLua\Examples\08_Hotfix\StatefullTest.cs" />
+     <Compile Include="Assets\Scripts\10022\ImageAlphaRaycast.cs" />
      <Compile Include="Assets\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
      <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
      <Compile Include="Assets\XLua\Examples\ExampleGenConfig.cs" />
-     <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
      <Compile Include="Assets\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
-     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
      <Compile Include="Assets\XLua\Src\LuaException.cs" />
      <Compile Include="Assets\XLua\Src\DelegateBridge.cs" />
      <Compile Include="Assets\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
      <Compile Include="Assets\XLua\Src\GenericDelegateBridge.cs" />
-     <Compile Include="Assets\Scripts\doshake.cs" />
      <Compile Include="Assets\XLua\Src\CopyByValue.cs" />
      <Compile Include="Assets\XLua\Src\StaticLuaCallbacks.cs" />
-     <Compile Include="Assets\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
-     <Compile Include="Assets\XLua\Src\LuaBase.cs" />
-     <Compile Include="Assets\Scripts\UIFoller.cs" />
-     <Compile Include="Assets\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
      <Compile Include="Assets\XLua\Src\InternalGlobals.cs" />
-     <Compile Include="Assets\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
      <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
      <None Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -705,14 +706,17 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -720,14 +724,53 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>E:/Unity/u3d/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
